@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+import sys
+from pkgman_triggers.backends.dpkg import process
+
+if __name__ == "__main__":
+	print("postinst script called")
+	process(sys.argv)

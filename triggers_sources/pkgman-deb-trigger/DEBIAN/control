@@ -1,0 +1,11 @@
+Package: pkgman-deb-trigger
+Version: 0.1
+Architecture: amd64
+Maintainer: KOLANICH
+Section: devel
+Priority: optional
+Homepage: https://gitlab.com/KOANICH/pkgman_triggers.py
+Depends: python3
+Description: Just defines a trigger for dpkg to call  into pkgman_triggers
+	Blah blah blah
+
